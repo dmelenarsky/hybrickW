@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soluciones · Hybrick</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/isologo.png" alt=""></a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li ><a href="soluciones.html">Soluciones</a></li>
+            <li class="active"><a>Características</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModal" >Contacto</a></li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+
+    <!--////////////    MODAL   ////////////////// -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Contacto</h4>
+        <p >Envianos las consultas que tengas y te contestaremos a la brevedad.</p>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group col-02" style="margin-right: 6%;">
+            <label for="recipient-name" class="control-label ">Nombre:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+
+          <div class="form-group col-02">
+            <label for="recipient-name" class="control-label ">Apellido:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+
+          <div class="form-group">
+            <label for="recipient-name" class="control-label ">Mail:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+
+
+          <div class="form-group">
+            <label for="message-text" class="control-label">Mensaje:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+
+        <button type="button" class="btn btn-primary">Send message</button>
+
+      </div>
+
+
+      <!-- <div class="modal-footer">
+        
+      </div> -->
+        </div>
+      </div>
+    </div>
+  
+<!--////////////   FINAL MODAL   ////////////////// -->  
+
+      <div class="container configuraciones center">
+          <h1>Nuestras caracteristicas.</h1>
+          <p>Hybrick admite distintos tipos de configuraciones que se ajustan <br>a las necesidades de su organización.</p>
+      </div>
+
+      <div class="container">
+        <div class="item">
+          <div class="ic floatLeft"></div>
+          <div class="texto">
+            <h2 class="">Local</h2>
+              <ul>
+                <li>Se configura en una red local, normalmente ubicada dentro de una oficina o negocio. </li>
+                <li>El sistema es accesible sólo para usuarios que estén conectados a la red.</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ic floatRight"></div>
+          <div class="texto">
+            <h2 class="">Web</h2>
+              <ul>
+                <li>Se instala en un web hosting o en un servidor virtual.</li>
+                <li>El sistema es accesible desde internet y puede combinarse con otras funcionalidades en una web externa.</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ic floatLeft"></div>
+          <div class="texto">
+            <h2 class="">Sucursales</h2>
+              <ul>
+                <li>El sistema está conectado con otros sistemas Hybrick.</li>
+                <li>La oficina central de un cliente tiene instalada la versión completa del sistema y las sucursales versiones reducidas del sistema.</li>
+                <li>La información que el cliente desea se envia automaticamente desde las sucursales a la oficina central.</li>
+              </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container otrasCaracteristicas">
+        <div class="row center">
+          <h1>Otras Caracteristicas </h1>
+          <p>El sistem hybrick te ofrece una multiplicidad de serviciós para tu empresa.</p>
+        </div>
+
+        <div class="row marginTop">
+            <div class="col-md-6">
+              <h3><img src="images/ic_05.png">&nbsp&nbspProcesos automáticos</h3>
+              <p>Parte del sistema funciona automáticamente permitiéndo al usuario decidir los procesos que se ejecutan, tanto del sistema (como backup o tareas de mantenimiento) como propias del negocio (alarmas por faltas de stock, controles o informes semanales, etc).</p>
+            </div>
+            <div class="col-md-6">
+              <h3><img src="images/ic_06.png">&nbsp&nbspAuditoría</h3>
+              <p>Todas las pantallas de administración de datos incluyen un registro de auditoría con los datos de alta y modificación de cada registro. <br> Los clientes pueden optar por dos niveles más de auditoría sobre las estructuras de datos que desean: intermedia y completa.</p>
+            </div>
+          
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+              <h3><img src="images/ic_07.png">&nbsp&nbspExportaciones a Excel y PDF</h3>
+              <p>Todos las pantallas de consultas incluyen exportación a PDF y Excel. Las pantalla de administración incluyen la exportación a PDF de los registros individuales.</p>
+            </div>
+            <div class="col-md-6">
+              <h3><img src="images/ic_08.png">&nbsp&nbspMensajes</h3>
+              <p>El administrador del sistema puede asignar tipos de avisos a los usuario y su vez cada usuario puede configurarse a si mismo como quiere ser notificado por cada tipo de aviso asignado.</p>
+            </div>
+          
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+              <h3><img src="images/ic_07.png">&nbsp&nbspFacturación electrónica</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mi tortor, facilisis in elit vitae, fringilla vestibulum metus. </p>
+            </div>
+            <div class="col-md-6">
+              <h3><img src="images/ic_09.png">&nbsp&nbspActualizaciones sin cargo</h3>
+              <p>Es un punto importante que por sus altos costos los trabajos de mantenimiento sobre el sistema suelen dejarse de lado. Mantiene el sistema eficiente y óptimo.</p>
+            </div>
+          
+        </div>
+
+
+        
+      </div>
+
+      <div class="container">
+      <footer>
+        <span class="txtLeft">2015 Hybrik - Todos los derechos reservados</span>
+        <span class="txtRight"><a href="#" data-toggle="modal" data-target="#exampleModal">Contacto</a></span>
+        <span class="txtRight"><a href="#">Preguntas Frecuentes</a></span> 
+      </footer>
+    </div> <!-- /container -->
+
+    
+      
+    </div> 
+
+    
+   
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
