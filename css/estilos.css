@@ -113,12 +113,11 @@ body {
 	font-weight: 700;
 	font-size: 48px;
 	color: #ffffff;
-	width: 621px;
 }
 
 .banner .text {
 	float: left;
-	width: 50%;
+	width: 60%;
 }
 
 .banner .text p {
@@ -126,10 +125,12 @@ body {
 }
 
 .banner .img_bn{
-	background: url("../images/img01.png") no-repeat;
 	float: right;
-	width: 435px;
-	height: 400px;
+	width: 40%;
+}
+
+.banner .img_bn img {
+	width: 100%;
 }
 
 .banner p {
@@ -184,11 +185,13 @@ body {
 	color: #2881bf;
 	font-weight: 700;
 	font-size: 21px;
+	margin-top: 35px;
 }
 .columns p {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Source Sans Pro', sans-serif; 
 	font-size: 16px;
-	padding: 0 30px;
+	padding: 0 25px 15px 25px;
+    line-height:  1.65;
 }
 
 a.btn-default {
@@ -222,7 +225,7 @@ a.btn-default:hover {
 }
 
 .screen .img {
-	width: 376px;
+	width: 32%;
 	height: 314px;
 	float: left;
 	margin-top: -55px;
@@ -231,7 +234,7 @@ a.btn-default:hover {
 .screen .txt {
 	width: 50%;
 	float: left;
-	margin-left: 110px;
+	margin-left: 5%;
 }
 
 .screen .txt h3 {
@@ -274,10 +277,10 @@ a.btn-secondary:hover {
 
 
 .caracteristicas h2{
-	font-family: 28px;
+	font-size: 28px;
 	color: #333;
 	font-weight: 700;
-	margin-top: 25px;
+	margin-top: 45px;
 }
 
 
@@ -367,7 +370,12 @@ footer .txtRight {
 }
 
 
+
 /*//////tabla/////////*/
+
+.tablaMobile {
+	display: none;
+}
 
 .table {
 	margin-bottom: 0;
@@ -435,7 +443,7 @@ footer .txtRight {
 /*//////---proceso----/////////*/
 
 .proceso {
-	padding: 50px 194px;
+	padding: 50px 11%;
 	text-align: center;
 	/*color: #fff;*/
 	margin-top: 25px;
@@ -452,30 +460,76 @@ footer .txtRight {
 }
 
 .proceso .box {
-	margin: auto;
-	width: auto;
+	/*margin: auto;*/
+	width: 100%;
     float: left;
     margin-top: 30px;
 }
 
 .proceso .box .col_01{
-	width: 80px;
+	width: 28%;
 	float: left;
 	/*background-color: #ccc;*/
 	padding-top: 25px;
 }
 
+.proceso .col_01 .loop {
+	width: 170px;
+    height: 307px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+.proceso .col_01 .loop p {
+	font-size: 16px;
+}
+
+.proceso .col_01 .pasos {
+	width: 50px;
+    height: 600px;
+    float: left;
+    display: inline-block;
+}
+
+.proceso .col_01 {
+
+}
+
 .proceso .box .col_02{
-	width: 607px;
+	width: 55%;
 	float: left;
 	/*background-color: #666;*/
 	text-align: left;
 	padding: 0 139px 0 23px; 
 }
+.proceso .box .col_02 p {
+	font-size: 16px;
+}
 
 
 .proceso .box .col_02 .sub_p{
 	font-size: 14px;
+}
+
+.proceso .box .col_02 .step01{
+	margin-top: 33px;
+}
+
+.proceso .box .col_02 .step02{
+	margin-top: 52px;
+}
+
+.proceso .box .col_02 .step03{
+	margin-top: 52px;
+}
+
+.proceso .box .col_02 .step04{
+	display: none;
+}
+
+.proceso .box .col_02 .step05{
+	margin-top: 76px;
 }
 
 .proceso .box .col_03{
@@ -502,6 +556,8 @@ footer .txtRight {
 	font-family: 'Roboto', sans-serif;
     padding-top: 10px;
 }
+
+
 
 /*//////---------------CARACTERISTICAS-------------/////////*/
 
@@ -540,7 +596,6 @@ footer .txtRight {
 .item .ic {
 	width: 169px;
 	height: 169px;
-	background-color: #efefef;
 	display: inline-block;
 }
 

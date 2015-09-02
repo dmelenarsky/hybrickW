@@ -1,0 +1,296 @@
+
+/*//////---------------MEDIA QUERIES-------------/////////*/
+
+
+ @media only screen and (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .proceso .box .col_02{
+        padding: 0; 
+    }
+    .proceso .box .col_01 {
+        width: 42%;
+    }
+
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+	.screen .img {
+		width: 45%;
+	}
+
+    .proceso {
+        padding: 50px 3%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .soluciones .container {
+    padding: 0;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+
+    .banner .img_bn {
+    	background-size: 95%;
+    	width: 35%;
+    }
+    .banner h1 {
+    	font-size: 40px
+    }
+
+    .banner p {
+    	font-size: 18px;
+    }
+
+	.banner {
+		padding: 90px 0 0 0;
+	}
+
+	.caracteristicas .col-md-3 {
+	    padding: 10px 27px;
+	    margin-bottom: 25px;
+	    width: 45%;
+	    display: inline-block;
+	    margin-top: 15px;
+	}
+
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    /*//////-------HOME---/////////*/
+	.screen .img {
+		width: 100%;
+		text-align: center;
+		height: auto;
+	}
+
+	.screen .txt {
+		width: 100%;
+		text-align:center;
+		margin-left: 0;
+	}
+
+    .proceso .box .col_03{
+        display: none;
+    }
+    /*//////-------SOLUCIONES---/////////*/
+    
+    .tabla {
+        display: none;
+    }
+
+    .soluciones {
+        padding-bottom: 30px;
+    }
+
+    .tablaMobile {
+        display: block;
+    }
+
+    .tablaMobile img {
+        width: 18px;
+    }
+
+    .tablaMobile h2{
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .tablaMobile ul {
+        list-style: none;
+        font-size: 18px;
+        padding: 0 0 35px 0 !important;
+        line-height: 2;
+        margin-top: 25px;
+        border-bottom: solid 1px #ccc;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+
+    .banner .text {
+    	text-align: center;
+    	width: 100%;
+    }
+    .banner .img_bn {
+    	width: 100%;
+    	float: left;
+    	text-align: center;
+    }
+
+    .caracteristicas .col-md-3 {
+	    padding: 10px 27px;
+	}
+
+    .soluciones h1 {
+        font-size: 28px;
+    }
+
+    .soluciones p {
+        font-size: 16px;
+    }
+
+    .proceso .box .col_01 {
+        display: none;
+    }
+
+    .proceso .box .col_02{
+        padding: 0 4%;
+        width: 90%;
+    }
+
+    .proceso .box .col_01 .loop{
+        display: none; 
+    }
+
+    .proceso .box .col_01 .proceso{
+        display: none;
+    }
+
+    .proceso {
+        padding: 50px 0;
+    }
+
+    .proceso .box .col_02 .step01{
+        margin-top: 32px;
+    }
+
+    .proceso .box .col_02 .step02{
+        margin-top: 32px;
+    }
+
+    .proceso .box .col_02 .step03{
+        margin-top: 32px;
+    }
+
+    .proceso .box .col_02 .step04{
+        display: block;
+    }
+
+    .proceso .box .col_02 .step05{
+        margin-top: 32px;
+    }
+
+    .proceso .box .col_02 .step01:before {
+        background: url("../images/proceso_01.png") no-repeat;
+        content: "";
+        display: inline-block;
+        height: 27px;
+        width: 34px;
+        background-size: 76%;
+        vertical-align: bottom;
+    }
+
+    .proceso .box .col_02 .step02:before {
+        background: url("../images/proceso_02.png") no-repeat;
+        content: "";
+        display: inline-block;
+        height: 27px;
+        width: 34px;
+        background-size: 76%;
+        vertical-align: bottom;
+    }
+
+    .proceso .box .col_02 .step03:before {
+        background: url("../images/proceso_03.png") no-repeat;
+        content: "";
+        display: inline-block;
+        height: 27px;
+        width: 34px;
+        background-size: 76%;
+        vertical-align: bottom;
+    }
+
+    .proceso .box .col_02 .step04 h3:before {
+        background: url("../images/proceso_alt.png") no-repeat;
+        content: "";
+        display: inline-block;
+        height: 27px;
+        width: 34px;
+        background-size: 76%;
+        vertical-align: bottom;
+    }
+    .proceso .box .col_02 .step04 p{
+    }
+
+    .proceso .box .col_02 .step05:before {
+        background: url("../images/proceso_04.png") no-repeat;
+        content: "";
+        display: inline-block;
+        height: 27px;
+        width: 34px;
+        background-size: 76%;
+        vertical-align: bottom;
+    }
+
+    .item {
+        width: 100%;
+    }
+    .item .texto {
+        width: 100%;
+    }
+    .floatRight{
+        float: left;
+    }
+
+    .configuraciones {
+        padding: 0;
+    }
+
+    .otrasCaracteristicas .row {
+        margin: 20px 10px;
+    }
+
+    .proceso .cta p {
+        text-align: left;
+    }
+
+
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+    
+    .banner .img_bn  img {
+    	width: 75% !important;
+    }
+    
+    .columns p {
+    	width: 75%;
+		margin: auto;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+	.banner h1 {
+    	font-size: 28px
+    }
+
+    .banner p {
+    	font-size: 16px;
+    }
+
+    .screen .img img {
+		width: 80%;
+		text-align: center;
+	}
+
+    
+}
